@@ -27,4 +27,4 @@ python app.py
 
 
 ![aaa](https://github.com/user-attachments/assets/4e8a7e55-a545-4185-9ef1-948b80d1ab2d)
-![Ekran görüntüsü 2025-03-19 110640](https://github.com/user-attachments/assets/19096f57-69e3-4631-861f-17db2913b984)
+![Ekran görüntüsü 2025-03-19 110607](https://github.com/user-attachments/assets/18c892b0-db63-4881-aa9f-6dcd14ad403e)
