@@ -1,4 +1,4 @@
-![Ekran görüntüsü 2025-03-19 110607](https://github.com/user-attachments/assets/68d8b820-29da-46bf-8441-63ffd3bfe4c1)# Music Recommendation App (Müzik Öneri Uygulaması)
+# Music Recommendation App (Müzik Öneri Uygulaması)
 
 MusicApp, kullanıcıların müzik tercihlerini analiz ederek onlara en uygun şarkıları öneren bir uygulamadır. 🎵
 
@@ -25,6 +25,3 @@ cd ../backend
 pip install -r requirements.txt
 python app.py
 
-
-![aaa](https://github.com/user-attachments/assets/4e8a7e55-a545-4185-9ef1-948b80d1ab2d)
-![Ekran görüntüsü 2025-03-19 110607](https://github.com/user-attachments/assets/18c892b0-db63-4881-aa9f-6dcd14ad403e)
