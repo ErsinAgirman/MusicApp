@@ -9,7 +9,9 @@ Backend: Flask (Python)
 
 ## 🛠 Kurulum ve Çalıştırma
 Projeyi Klonla
-git clone https://github.com/ErsinAgirman/MusicApp.git
+```sh
+ git clone https://github.com/ErsinAgirman/MusicApp.git
+``` 
 cd MusicApp
 
 ##Frontend Kurulumu ve Çalıştırma
