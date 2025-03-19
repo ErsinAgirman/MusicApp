@@ -1,32 +1,33 @@
 import React from 'react';
+import { SpotifyProvider } from './SpotifyContext'; // Adjust path as needed
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Trending from './components/Trending';
 import Genres from './components/Genres';
 import TopSongs from './components/TopSongs';
 import RightSection from './components/RightSection';
-import './App.css';  // App.css dosyanızı import edin
-
+import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      {/* Sidebar */}
-      <Sidebar />
+    <SpotifyProvider>
+      <div className="container">
+        {/* Sidebar */}
+        <Sidebar />
 
-      {/* Ana İçerik */}
-      <main>
-        <Header />
-        <Trending />
-        <div className="playlist">
-          <Genres />
-          <TopSongs />
-        </div>
-      </main>
+        {/* Main Content */}
+        <main>
+          <Header />
+          <div className="playlist">
+            <Genres />
+            <TopSongs />
+          </div>
+        </main>
 
-      {/* Sağ Bölüm */}
-      <RightSection />
-    </div>
+        {/* Right Section */}
+        <RightSection />
+      </div>
+    </SpotifyProvider>
   );
 }
 
