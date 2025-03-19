@@ -50,11 +50,13 @@ danceability, energy, valence, tempo, acousticness, instrumentalness, liveness, 
 
 Eksik veya hatalı veriler temizlendi.
 
+
 2️⃣ Veri Ön İşleme
 
 Tüm sayısal öznitelikler Min-Max Normalizasyonu ile [0,1] aralığına ölçeklendirildi.
 
 Kategorik değişkenler (örn. müzik türleri) One-Hot Encoding yöntemiyle sayısal hale getirildi.
+
 
 3️⃣ Modelin Eğitilmesi
 
@@ -66,6 +68,7 @@ Belirlenen küme sayısına göre model eğitildi ve her şarkının bir kümeye
 
 Eğitilen model, daha sonra kullanılmak üzere model.pkl dosyası olarak kaydedildi.
 
+
 4️⃣ Modelin Test Edilmesi ve Değerlendirilmesi
 
 Model, belirlenen metrikler kullanılarak test edildi.
@@ -73,6 +76,7 @@ Model, belirlenen metrikler kullanılarak test edildi.
 Şarkı kümeleri analiz edilerek öneri sisteminin doğruluğu değerlendirildi.
 
 Kullanıcı girdileri ile testler yapılarak şarkı önerilerinin mantıklı olup olmadığı gözlemlendi.
+
 
 5️⃣ Öneri Sistemi Mekanizması
 
